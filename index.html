@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Haven Heights Empire</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f7f9fc;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #bdc3c7;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #34495e;
+      padding: 0.8rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .service {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+
+    footer p {
+      color: #bdc3c7;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Haven Heights Empire</h1>
+    <p>Building Visions. Elevating Dreams.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Haven Heights Empire is a forward-thinking real estate and development company focused on creating world-class living spaces. With a commitment to quality, innovation, and sustainability, we help shape communities where people thrive.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Property Development</h3>
+        <p>From planning to execution, we develop residential and commercial properties with unmatched quality and design.</p>
+      </div>
+      <div class="service">
+        <h3>Real Estate Management</h3>
+        <p>We offer full-scale property management solutions tailored to maximize value and minimize hassle.</p>
+      </div>
+      <div class="service">
+        <h3>Investment Advisory</h3>
+        <p>Our expert team helps investors make smart, data-driven decisions in the real estate sector.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      Ready to work with Haven Heights Empire? Reach out to us at:<br/><br/>
+      <strong>Email:</strong> contact@havenheights.com<br/>
+      <strong>Phone:</strong> +1 (234) 567-8901<br/>
+      <strong>Location:</strong> 123 Skyline Blvd, Metropolis City
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Haven Heights Empire. All rights reserved.</p>
+  </footer>
+</body>
+</html>
